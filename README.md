@@ -6,7 +6,7 @@ Add Hello world program in all languages as possible
 - Add stylish Hello World's
 
 ###### Spotted any missing language
-- For this repo
+- Fork this repo
 - make in the format `<lamguage_name>/<hello_world.extnsionname>`
 - Make A PR
 - Join the fever 👊👊
