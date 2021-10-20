@@ -1,2 +1,3 @@
 CREATE TABLE helloworld (phrase TEXT);
-.tables
+INSERT INTO helloworld VALUES ("Hello, World!");
+SELECT * FROM helloworld;
