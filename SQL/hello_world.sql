@@ -1,20 +1,15 @@
-Set serveroutput on;
--- Type the above command before executing any SQL program.
+-- Creating a table 1)
 
--- Hello World Program in SQL (Type 1)
+CREATE TABLE helloworld (phrase TEXT);
+.tables
 
-begin
-dbms_output.put_line('Hello World');
-end;
-/
+-- Inserting data into a table 2)
 
--- Hello World Program in SQL (Type 2)
+CREATE TABLE helloworld (phrase TEXT);
+INSERT INTO helloworld VALUES ("Hello, World!");
+INSERT INTO helloworld VALUES ("Goodbye, World!");
+SELECT COUNT(*) FROM helloworld;
 
-DECLARE
-message varchar2(20):= 'Hello, World!';
-BEGIN
-dbms_output.put_line(message);
-END;
-/
+-- Selecting from a table 3)
 
-
+SELECT * FROM helloworld WHERE phrase = "Hello, World!";
