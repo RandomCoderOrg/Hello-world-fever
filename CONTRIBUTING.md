@@ -20,4 +20,7 @@ all new langauges should be in root folder with language name as folder name and
 ## Follow code of conduct
 - make sure you read code of conduct before submitting any issue or PR
 
+## HacktoberFest
+- either first PR or best quality code PR gets accepeted!
+
 Thanks for contributing✌️
