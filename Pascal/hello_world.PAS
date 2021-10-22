@@ -1,4 +1,4 @@
-Following is a simple pascal code that would print the words "Hello, World!" −
+(*Following is a simple pascal code that would print the words "Hello, World!"*)
 
 
 program HelloWorld;
