@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glow Effect</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins", sans-serif;
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: #000;
+      }
+
+      h2 {
+        color: rgb(44, 42, 42);
+        font-size: 6em;
+        font-weight: 500;
+        letter-spacing: 5px;
+        cursor: pointer;
+      }
+
+      h2 span {
+        transition: 0.5s;
+      }
+
+      h2:hover span:nth-child(1) {
+        margin-right: 10px;
+      }
+      /* h2:hover span:nth-child(1)::after{
+    content:"'";
+} */
+      h2:hover span:nth-child(2) {
+        margin-right: 46px;
+      }
+      h2:hover span {
+        color: #fff;
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff,
+          0 0 80px rgb(15, 233, 15), 0 0 120px rgb(255, 0, 0);
+      }
+    </style>
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+  </head>
+  <body>
+    <h2><span>HELLO</span> <span>WORLD</span></h2>
+  </body>
+</html>
