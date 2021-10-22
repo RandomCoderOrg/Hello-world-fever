@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fancy Hello World</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Times New Roman:wght@200;300;400;500;600;700;800;900&display=swap")
+    
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Times New Roman", sans-serif;
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: #000066;
+      }
+
+      h2 {
+        color: rgb(255, 99, 71);
+        font-size: 6em;
+        font-weight: 500;
+        letter-spacing: 10px;
+        cursor: pointer;
+      }
+
+      h2 span {
+        transition: 0.15s;
+      }
+
+      h2:hover span:nth-child(1) {
+        margin-right: 10px;
+      }
+      /* h2:hover span:nth-child(1)::after{
+    content:"'";
+} */
+      h2:hover span:nth-child(2) {
+        margin-right: 46px;
+      }
+      h2:hover span {
+        color: #00FFFF;
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff,
+          0 0 80px rgb(0, 255, 255), 0 0 120px rgb(255, 0, 0);
+      }
+    </style>
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+  </head>
+  <body>
+    <h2><span>HELLO</span> <span>WORLD</span></h2>
+  </body>
+</html>
